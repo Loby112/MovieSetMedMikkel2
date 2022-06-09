@@ -1,0 +1,13 @@
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieRestAPI.exe
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\appsettings.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieRestAPI.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieRestAPI.deps.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieRestAPI.runtimeconfig.json
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieRestAPI.pdb
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieLib.dll
+C:\Users\Lobyl\Documents\3. Semester\TestPractice\MovieSetMedMikkel\MovieRestAPI\MovieRestAPI\obj\Release\net5.0\PubTmp\Out\MovieLib.pdb

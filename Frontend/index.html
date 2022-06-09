@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- https://www.bootstrapcdn.com/ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Movies</title>
+</head>
+<body>
+    <div id="app">
+        <input id="filterInput" v-model="filterLength" placeholder="Length">
+        <button id="getAllButton" class="btn btn-info" @click="getAllMovies(filterLength)"></button>
+        <table class="table table-striped table-dark" v-if="moviesList.length">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Length</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="movie in moviesList">
+                    <td>{{movie.id}}</td>
+                    <td>{{movie.name}}</td>
+                    <td>{{movie.lengthInMinutes}}</td>
+                    <td>{{movie.country}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <input v-model="filterLength" placeholder="Length">
+        <button class="btn btn-info" @click="filterJS()">Filter</button>
+        <table class="table table-striped table-dark" v-if="jsDataList.length">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Length</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="movie in jsDataList">
+                    <td>{{movie.id}}</td>
+                    <td>{{movie.name}}</td>
+                    <td>{{movie.lengthInMinutes}}</td>
+                    <td>{{movie.country}}</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <input id="addNameInput"v-model="addData.name" placeholder="Movie name" type="text">
+        <input id="addLengthInput" v-model="addData.lengthInMinutes" placeholder="Minutes" type="Number">
+        <input id="addCountryInput" v-model="addData.country" placeholder="Country" type="text">
+        <button id="addButton" @click="addMovie()" class="btn btn-info">Add movie</button>
+        <div id="outputField" v-if="addData">{{addData}}</div>
+
+        <br>
+
+        <input v-model="idToGetBy" placeholder="Id" type="number">
+        <button @click="getById">Get by Id</button>
+        <li v-if="singleMovie">
+            Id: {{singleMovie.id}} - Name: {{singleMovie.name}} - Length: {{singleMovie.lengthInMinutes}} - Country: {{singleMovie.country}}
+        </li>
+
+        <br>
+
+        <input v-model="updateData.id" placeholder="Id" type="number">
+        <input v-model="updateData.name" placeholder="Movie name" type="text    ">
+        <input v-model="updateData.lengthInMinutes" placeholder="Minutes" type="Number">
+        <input v-model="updateData.country" placeholder="Country" type="text">
+        <button @click="updateMovie()" class="btn btn-info">Update movie</button>
+
+        <br>
+
+        <input v-model="deleteId" placeholder="Id" type="number">
+        <button @click="deleteMovie()" class="btn btn-danger">Delete Movie</button>
+
+    </div>
+    <script src="js/index.js"></script>
+</body>
