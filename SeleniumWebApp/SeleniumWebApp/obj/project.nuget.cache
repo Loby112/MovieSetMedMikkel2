@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S8pJzh2sMDxXf6FPFqRqgC/WIcABjsPxUGebYKyOUdZiVD8tblZ60RI20XJUvs0saOwMg5a+DbgMTw4JzoOKVg==",
+  "dgSpecHash": "rniJVgdSj3PTpDhcjaqBS2kTm0wqj6Vs4xvcKg35+08P4dw3i2+K9m53SJGL0wdVDa9MEdQFwnfUsJ3Zxle4Uw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj",
+  "projectFilePath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lobyl\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Lobyl\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

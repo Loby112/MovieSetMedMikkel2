@@ -9,7 +9,8 @@ Vue.createApp({
             addData: {"id":0,"name":"","lengthInMinutes":null,"country":""},
             updateData: {"id":null,"name":"","lengthInMinutes":null,"country":""},
             filterLength: null,
-            jsDataList: []
+            jsDataList: [],
+            jsfilterLength: 0
             
 
         }
@@ -51,6 +52,7 @@ Vue.createApp({
             try{
                 const response = await axios.delete(url)
                 this.getAllMovies()
+                this.filterJS()
             } catch (ex) {
                 alert(ex.message)
             }
@@ -77,16 +79,14 @@ Vue.createApp({
         },
 
         async filterJS(){
-            this.jsDataList = await this.moviesList.slice()
-            if(this.filterLength != null){
-                this.jsDataList = this.jsDataList.filter(w => w.lengthInMinutes < this.filterLength)
+            
+            this.jsDataList = this.moviesList.slice()
+            if(this.jsfilterLength != 0){
+                this.jsDataList = this.jsDataList.filter(w => w.lengthInMinutes < this.jsfilterLength)
+
             }
             
         }, 
-
-
-
-
 
     }
 

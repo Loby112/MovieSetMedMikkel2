@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj": {}
+    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj": {
+    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj",
         "projectName": "SeleniumWebApp",
-        "projectPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj",
+        "projectPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\SeleniumWebApp\\SeleniumWebApp\\SeleniumWebApp.csproj",
         "packagesPath": "C:\\Users\\Lobyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\SeleniumWebApp\\SeleniumWebApp\\obj\\",
+        "outputPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\SeleniumWebApp\\SeleniumWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

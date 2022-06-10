@@ -16,8 +16,8 @@
 <body>
     <div id="app">
         <input id="filterInput" v-model="filterLength" placeholder="Length">
-        <button id="getAllButton" class="btn btn-info" @click="getAllMovies(filterLength)"></button>
-        <table class="table table-striped table-dark" v-if="moviesList.length">
+        <button id="getAllButton" class="btn btn-info" @click="getAllMovies(filterLength)">Get All</button>
+        <table id="getMovieList" class="table table-striped table-dark" v-if="moviesList.length">
             <thead>
                 <tr>
                     <th>Id</th>
@@ -37,9 +37,9 @@
         </table>
 
         <br>
-        <input v-model="filterLength" placeholder="Length">
+        <input id="jsFilterInput" v-model="jsfilterLength" placeholder="Length" type="number">
         <button class="btn btn-info" @click="filterJS()">Filter</button>
-        <table class="table table-striped table-dark" v-if="jsDataList.length">
+        <table class="table table-striped table-dark" >
             <thead>
                 <tr>
                     <th>Id</th>
@@ -48,7 +48,7 @@
                     <th>Country</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody v-if="jsDataList.length">
                 <tr v-for="movie in jsDataList">
                     <td>{{movie.id}}</td>
                     <td>{{movie.name}}</td>
