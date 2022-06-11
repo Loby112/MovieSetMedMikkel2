@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\MovieRestAPI\\MovieRestAPI\\MovieRestAPI.csproj": {}
+    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\TCPConcurrentServer\\TCPConcurrentServer\\TCPConcurrentServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\MovieRestAPI\\MovieRestAPI\\MovieRestAPI.csproj": {
+    "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\TCPConcurrentServer\\TCPConcurrentServer\\TCPConcurrentServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\MovieRestAPI\\MovieRestAPI\\MovieRestAPI.csproj",
-        "projectName": "MovieRestAPI",
-        "projectPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\MovieRestAPI\\MovieRestAPI\\MovieRestAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\TCPConcurrentServer\\TCPConcurrentServer\\TCPConcurrentServer.csproj",
+        "projectName": "TCPConcurrentServer",
+        "projectPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\TCPConcurrentServer\\TCPConcurrentServer\\TCPConcurrentServer.csproj",
         "packagesPath": "C:\\Users\\Lobyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\MovieRestAPI\\MovieRestAPI\\obj\\",
+        "outputPath": "C:\\Users\\Lobyl\\Documents\\3. Semester\\TestPractice\\MovieSetMedMikkel\\TCPConcurrentServer\\TCPConcurrentServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,12 +45,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -62,9 +56,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
